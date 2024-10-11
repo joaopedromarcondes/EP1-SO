@@ -164,6 +164,7 @@ void            idtinit(void);
 extern uint     ticks;
 void            tvinit(void);
 extern struct spinlock tickslock;
+extern uint contador_reads;
 
 // uart.c
 void            uartinit(void);
